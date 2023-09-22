@@ -16,12 +16,15 @@
     #hamburger-nav{
         display: flex;
     }
+    .hamburger-menu{
+        margin-left: 100px;
+    }
     #experience,.experience-details-container{
         margin-top: 2rem;
     }
-    #profile,.section-container{
-        display: block;
-        z-index: -2;
+    #profile,.section__text{
+        display: inline-block;
+        margin-left: 150px;
     }
     .arrow{
         display: none;
@@ -33,65 +36,14 @@
         margin: 0 5%;
     }
     .section__pic-container{
-        width: 275px;
-        height: 275px;
+        width: 295px;
+        height: 285px;
         margin: 0 auto 2rem;
+        margin-left: 220px;
     }
     .about-container{
         margin-top: 0;
     }
 }
 
-@media screen and (max-width: 600px){
-    #contact,footer{
-        height: 40vh;
-    }
-    #profile{
-        height: 84vh;
-        margin-bottom: 0;
-    }
-    article{
-        font-size: 1rem;
-    }
-    footer nav{
-        height: fit-content;
-        margin-bottom: 2rem;
-    }
-    .about-container, .contact-info-upper-container,.btn-container{
-        flex-wrap: wrap;
-    }
-    .contact-info-container{
-        margin: 0;
-    }
-    .contact-info-container p, .nav-links li a{
-        font-size: 1rem;
-    }
-    .experience-sub-title{
-        font-size: 1.25rem;
-    }
-    .logo{
-        font-size: 1.5rem;
-    }
 
-    .nav-links{
-        flex-direction: column;
-        gap: 0.5rem;
-        text-align: center;
-    }
-
-    .section__pic-container{
-        width: auto;
-        height: 46vw;
-        justify-content: center;
-    }
-    .section__text__p2{
-        font-size: 1.25rem;
-    }
-    .title{
-        font-size: 2rem;
-    }
-    .text-container{
-        text-align: justify;
-    }
-
-}
